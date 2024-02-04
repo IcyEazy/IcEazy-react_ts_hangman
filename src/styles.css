@@ -1,0 +1,32 @@
+.wrapperContainer {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.gameStatus {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.lettersContainer {
+  display: flex;
+  gap: 0.25em;
+  font-size: 6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.letter {
+  border-bottom: 0.1em solid black;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
